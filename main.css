@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('font/big_noodle_titling-webfont.eot');
+    src: url('font/big_noodle_titling-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('font/big_noodle_titling-webfont.woff') format('woff'),
+         url('font/big_noodle_titling-webfont.ttf') format('truetype'),
+         url('font/big_noodle_titling-webfont.svg#bignoodletitlingregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { 
+background-color: #2D4059;
+}
+
+div {
+}
+
+#mySketch {
+	height: 250px;
+    width:800px; 
+	background-color: #EA5455;
+    margin:auto; 
+    margin-top: 30px;    
+}
+
+#work { 
+    height:600px;
+    width:800px; 
+    margin:auto; 
+
+}
+
+.exercises {
+    font-family: helvetica; 
+    color:#FFD460; 
+    text-decoration: none;
+	height: 50%;
+	width: 350px;
+	/*background-color: #FFD460;*/  
+    font-size:1em;
+    float: left;
+    margin-top: 50px; 
+    margin-left: 20px;
+
+}
+
+.blog {
+    font-family: helvetica; 
+    color:#FFD460; 
+    text-decoration: none;
+	width: 800px;
+    height: 1200px;
+	/*background-color: #FFD460;*/  
+    font-size:1em;
+    float: left;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+
+h1 { 
+    font-size: 3em; 
+    font-family: 'bignoodletitlingregular';
+    padding-top:20px;
+    padding-left:60px;
+    padding-bottom:20px;
+    color: #EA5455;
+; 
+    background-color:#FFD460; 
+
+}
+
+h4 {
+    padding: 10px;
+    font-weight:normal;
+
+}
+h3 {
+  font-family: 'bignoodletitlingregular';
+    font-size: 2em; 
+    color: #FFD460; 
+    padding-bottom: 10px; 
+}
+
+	
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+    color: #2D4059;
+    background:#F07B3F; 
+   text-align: center; 
+
+    padding-top: 20px;
+    font-family: 'bignoodletitlingregular';
+    font-size:20px; 
+}
+
+
+/*link styling*/ 
+
+
+a:link {
+    color: #FFD460;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFD460;
+    text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: none;
+    color: #EA5455;
+}
+
+a:active {
+  color: #F07B3F;
+} 
+
+img { 
+    padding: 10px; 
+    width:700px;
+}
+
