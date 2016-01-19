@@ -8,7 +8,7 @@ var idea;
 
 function preload() {
 img = loadImage("../images/bannerfull.png");
-pencil = loadImage("../images/pencil.png"); 
+pencil =  loadImage("../images/pencil.png"); 
 book = loadImage ("../images/book.png"); 
 me = loadImage ("../images/me.png"); 
 idea = loadImage ("../images/idea.png"); 
