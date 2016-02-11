@@ -130,6 +130,10 @@ a:link {
 
 }
 
+article a:link {
+    text-decoration: underline;
+}
+
 a:visited {
     color: #FFD460;
     text-decoration: none;   
