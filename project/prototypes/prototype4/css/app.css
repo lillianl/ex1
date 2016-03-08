@@ -1,0 +1,195 @@
+/* @fontface*/
+@font-face {
+    font-family: 'blanchcaps';
+    src: url('../font/blanch_caps-webfont.eot');
+    src: url('../font/blanch_caps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/blanch_caps-webfont.woff2') format('woff2'),
+         url('../font/blanch_caps-webfont.woff') format('woff'),
+         url('../font/blanch_caps-webfont.ttf') format('truetype'),
+         url('../font/blanch_caps-webfont.svg#blanchcaps') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'new_athletic_m54regular';
+    src: url('../font/new_athletic_m54-webfont.eot');
+    src: url('../font/new_athletic_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/new_athletic_m54-webfont.woff2') format('woff2'),
+         url('../font/new_athletic_m54-webfont.woff') format('woff'),
+         url('../font/new_athletic_m54-webfont.ttf') format('truetype'),
+         url('../font/new_athletic_m54-webfont.svg#new_athletic_m54regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*GENERAL*/
+
+/*
+:not(body):not(html) {
+box-sizing:border-box;
+border:1px dashed #000;
+}
+*/
+
+.columns {
+  min-height: 50px;
+}
+
+section {
+min-height: 80px;
+}
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+body {
+  background-color: #EEE9E9;
+}
+
+p {
+  width:50%;
+  line-height: 30px;
+  font-size: 2em;
+  font-family: 'blanchcaps';
+  line-height: 26px;
+  color: #F4EF88;
+}
+
+h1 {
+font-family: 'new_athletic_m54regular';
+font-size:3em;;
+color:#F4EF88;
+border-bottom-color:#F4EF88;
+border-bottom-style: solid;
+}
+
+h2 {
+float:right;
+padding-top:15px;
+font-family: 'new_athletic_m54regular';
+font-size:1.5em;;
+color:#F4EF88;
+}
+
+.button {
+  border-width: 4px;
+  border-color:#F4EF88;
+  border-radius: 20px;
+  width: 200px;
+  font-size: 1.4em;
+  font-family: 'new_athletic_m54regular';
+  color:#F4EF88;
+  background-color: #F16365;
+  float:right;
+}
+
+section div h4 {
+  line-height:1em;
+  font-family: 'new_athletic_m54regular';
+  font-size:2.3em;;
+  color:#F4EF88;
+  padding:23px;
+  background-color: black;
+}
+
+
+section div h5 {
+font-family: 'blanchcaps';
+font-size:1.8em;
+text-align: left;
+line-height: 1em;
+padding: 10px 10px 10px 20px;
+  margin-top:10px;
+}
+/*link styling*/
+
+
+/*button styling*/
+
+.expand {
+  width: 100%;
+  text-align: center;
+}
+
+/*NAV*/
+
+.top-bar {
+  font-family: 'new_athletic_m54regular';
+  background: transparent !important;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-family: 'new_athletic_m54regular';
+  color: #3E4E97;
+}
+
+
+/*HERO*/
+
+section div#options {
+padding-top:10px;
+
+}
+
+section div.links {
+
+}
+
+#addGoal {
+}
+
+img {
+width: 30%;
+height:auto;
+margin-top:10px;
+}
+
+section div img:nth-child(2) {
+width:100%;
+}
+
+.hero {
+  background-image:url(../img/banner.png);
+  width:100%;
+  height:auto;
+  font-family: 'new_athletic_m54regular';
+}
+
+
+div#greeting h1{
+position:relative;
+padding: 24% 0px 0px 0px;
+width: 50%;
+border-bottom-style: solid;
+border-bottom-width: 4px;
+border-bottom-color:#F4EF88;
+}
+
+div#greeting p{
+   padding: 20px 0px 50px 0px;
+}
+
+/*main section*/
+
+section#description {
+background-color: #F16365;
+padding-bottom:20px;
+}
+section div.row#graphDescription {
+  padding-top:5%;
+  padding-bottom:1%;
+
+}
+
+
+section#graph img {
+width:100%;
+
+}
